@@ -1,0 +1,17 @@
+{
+  "name": "@ekosh02/react-native-animated-header-scroll-view",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "npx prettier . --write"
+  },
+  "keywords": [],
+  "author": "Yeldos Turapbayev",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "prettier": "3.5.3"
+  }
+}
