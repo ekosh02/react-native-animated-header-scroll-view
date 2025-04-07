@@ -1,1 +1,1 @@
-
+export { AnimatedScrollView } from './components'
