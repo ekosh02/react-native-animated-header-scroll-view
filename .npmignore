@@ -4,6 +4,8 @@ package-lock.json
 
 tsconfig.json
 
+.prettierrc
+
 .gitignore
 
 assets/
