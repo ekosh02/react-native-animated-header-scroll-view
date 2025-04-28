@@ -22,6 +22,9 @@
   ],
   "author": "Yeldos Turapbayev",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "devDependencies": {
     "@types/react": "^19.1.0",
