@@ -6,5 +6,7 @@ tsconfig.json
 
 .gitignore
 
+assets/
+
 .DS_Store
 
