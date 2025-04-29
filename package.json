@@ -1,6 +1,6 @@
 {
   "name": "@ekosh02/react-native-animated-header-scroll-view",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "@ekosh02/react-native-animated-header-scroll-view is a custom React Native component that simplifies the creation of animated scroll views with dynamic headers. It provides smooth and responsive animations based on the scroll position and extends the standard ScrollView without relying on external libraries like reanimated or gesture-handler",
   "main": "src/index.ts",
   "scripts": {
