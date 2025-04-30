@@ -9,6 +9,7 @@ const useAnimatedScrollView = () => {
   const scrollY = useRef(new Animated.Value(0)).current
 
   const handleScroll = (event: NativeSyntheticEvent<NativeScrollEvent>) => {
+    Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], { useNativeDriver: true })
     const scrollYValue = event.nativeEvent.contentOffset.y
     const reached = scrollYValue >= contentHeight - headerHeight
     setIsScrolledToHeaderEnd(reached)

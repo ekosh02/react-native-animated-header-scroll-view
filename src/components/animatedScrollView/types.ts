@@ -33,4 +33,15 @@ export interface AnimatedScrollViewProps extends ScrollViewProps {
    * <View><Text>Static Content</Text></View>
    */
   children?: ReactNode
+
+  /**
+   * Controls how much the `contentView` shrinks during scroll animation.
+   *
+   * @default 0.7
+   *
+   * @example
+   * Shrink contentView to 80% of its size when scrolled
+   * scaleMin={0.8}
+   */
+  scaleMin?: number
 }
