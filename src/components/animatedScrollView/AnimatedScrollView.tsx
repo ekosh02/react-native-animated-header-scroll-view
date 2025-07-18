@@ -9,8 +9,10 @@ const AnimatedScrollView = ({
   children,
   topHeaderComponent,
   scrolledHeaderComponent,
+  headerBackgroundColor,
   contentView,
   scaleMin,
+  useSafeArea,
   ...props
 }: AnimatedScrollViewProps) => {
   const {
@@ -28,7 +30,9 @@ const AnimatedScrollView = ({
       <HeaderView
         topHeaderComponent={topHeaderComponent}
         scrolledHeaderComponent={scrolledHeaderComponent}
+        headerBackgroundColor={headerBackgroundColor}
         isScrolledToHeaderEnd={isScrolledToHeaderEnd}
+        useSafeArea={useSafeArea}
         onHeaderLayout={handleHeaderLayout}
       />
       <ScrollView onScroll={handleScroll} scrollEventThrottle={SCROLL_EVENT_THROTTLE} {...props}>

@@ -1,3 +1,4 @@
+import { HeaderViewProps } from '../headerView/types'
 import { ReactNode } from 'react'
 import { ScrollViewProps } from 'react-native'
 
@@ -44,4 +45,27 @@ export interface AnimatedScrollViewProps extends ScrollViewProps {
    * scaleMin={0.8}
    */
   scaleMin?: number
+
+  /**
+   * Background color for the `scrolledHeaderComponent`.
+   *
+   * Typically used to match the background when the header becomes sticky.
+   *
+   * @example
+   * headerBackgroundColor="#ffffff"
+   */
+  headerBackgroundColor?: HeaderViewProps['headerBackgroundColor']
+
+  /**
+   * Enables or disables usage of safe area insets (e.g. for iPhone notch).
+   *
+   * If `true`, padding will be added to the top of the header using `useSafeAreaInsets()`.
+   * If `false` or not set, no safe area will be applied.
+   *
+   * @default false
+   *
+   * @example
+   * useSafeArea={true}
+   */
+  useSafeArea?: HeaderViewProps['useSafeArea']
 }
