@@ -99,12 +99,6 @@ The `AnimatedScrollView` component automatically provides smooth transitions and
 
 &nbsp;&nbsp;&nbsp;
 
-## Important Information
-
-@ekosh02/react-native-animated-header-scroll-view does not manage safe areas automatically, as it does not use react-native-safe-area-context. You'll need to manually handle the top and bottom indents for safe zones using styles or other approaches. In future versions, we plan to integrate automatic safe area handling to simplify layout management.
-
-&nbsp;&nbsp;&nbsp;
-
 ## Image Scaling Issue
 
 Using scaleMin = 0.7 in ContentView may cause empty spaces around the image due to reduced width.
