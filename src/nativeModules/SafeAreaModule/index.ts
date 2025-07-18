@@ -1,1 +1,0 @@
-export { getSafeAreaInsets } from './SafeAreaModule'
