@@ -94,11 +94,11 @@ The `AnimatedScrollView` component accepts the following props:
 
 The `AnimatedScrollView` component automatically provides smooth transitions and animations for the header and content:
 
-| Behavior          | Description                                                                                                       |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Header Transition | Smooth fade transitions between `topHeaderComponent` and `scrolledHeaderComponent`, triggered by scroll position. |
-| Content Scaling   | The `contentView` element scales down and translates upwards when the user scrolls, creating a parallax effect.   |
-| Scroll Tracking   | Scroll position is dynamically tracked, triggering appropriate animations and header changes.                     |
+| Behavior          | Description                                                                                                          |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Header Transition | Smooth fade transitions between `topHeaderComponent` and `scrolledHeaderComponent`, triggered by scroll position.    |
+| Content Scaling   | The `contentComponent` element scales down and translates upwards when the user scrolls, creating a parallax effect. |
+| Scroll Tracking   | Scroll position is dynamically tracked, triggering appropriate animations and header changes.                        |
 
 &nbsp;&nbsp;&nbsp;
 
