@@ -1,7 +1,7 @@
 {
   "name": "@ekosh02/react-native-animated-header-scroll-view",
   "description": "Lightweight React Native ScrollView with animated header. No reanimated or gesture-handler required.",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "src/index.ts",
   "scripts": {
     "prettier": "npx prettier . --write"
