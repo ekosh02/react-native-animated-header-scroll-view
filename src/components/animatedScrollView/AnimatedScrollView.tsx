@@ -10,7 +10,7 @@ const AnimatedScrollView = ({
   topHeaderComponent,
   scrolledHeaderComponent,
   headerBackgroundColor,
-  contentView,
+  contentComponent,
   scaleMin,
   useSafeArea,
   ...props
@@ -37,7 +37,7 @@ const AnimatedScrollView = ({
       />
       <ScrollView onScroll={handleScroll} scrollEventThrottle={SCROLL_EVENT_THROTTLE} {...props}>
         <ContentView
-          children={contentView}
+          children={contentComponent}
           scrollY={scrollY}
           headerHeight={headerHeight}
           onLayout={handleContentLayout}
