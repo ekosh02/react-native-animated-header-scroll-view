@@ -23,9 +23,9 @@ export interface AnimatedScrollViewProps extends ScrollViewProps {
    * Component displayed inside the content view that will be animated with scaling and translation effects.
    *
    * @example
-   * contentView={<Text>Animated Content</Text>}
+   * contentComponent={<Text>Animated Content</Text>}
    */
-  contentView?: ReactNode
+  contentComponent?: ReactNode
 
   /**
    * Regular static content inside the ScrollView.
