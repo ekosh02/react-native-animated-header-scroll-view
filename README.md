@@ -1,6 +1,6 @@
 # @ekosh02/react-native-animated-header-scroll-view
 
-This is a custom React Native component that simplifies the creation of animated scroll views with dynamic headers. It provides smooth and responsive animations based on the scroll position and extends the standard ScrollView without relying on external libraries like reanimated or gesture-handler
+This is a custom React Native component that makes it easy to create animated scroll views with dynamic headers. It provides smooth and responsive animations based on scroll position and extends the standard ScrollView without reanimated reliance.
 
 <p>
   <img src="https://raw.githubusercontent.com/ekosh02/react-native-animated-header-scroll-view/main/assets/demo-ios.gif" height="500" alt="demo-ios" />
@@ -22,6 +22,22 @@ Or using yarn:
 yarn add @ekosh02/react-native-animated-header-scroll-view
 ```
 
+### Peer dependency:
+
+### This library uses react-native-safe-area-context for handling safe area insets. Make sure it's installed in your project:
+
+Install using npm:
+
+```bash
+npm install react-native-safe-area-context
+```
+
+Or using yarn:
+
+```bash
+yarn add react-native-safe-area-context
+```
+
 &nbsp;&nbsp;&nbsp;
 
 ## Features
@@ -29,7 +45,7 @@ yarn add @ekosh02/react-native-animated-header-scroll-view
 - Simplifies the creation of animated headers in React Native applications.
 - Smooth scaling and translation animations based on scroll position.
 - Automatically handles header transitions with fade-in and fade-out effects.
-- No external dependencies like react-native-reanimated or react-native-gesture-handler.
+- No react-native-reanimated.
 
 &nbsp;&nbsp;&nbsp;
 
