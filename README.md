@@ -77,16 +77,16 @@ export default ExampleScreen
 
 The `AnimatedScrollView` component accepts the following props:
 
-| Prop                      | Type                                       | Description                                                                                                                                                                   |
-| ------------------------- | ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `topHeaderComponent`      | `React.ReactNode`                          | Component displayed as the main header before scrolling.                                                                                                                      |
-| `scrolledHeaderComponent` | `React.ReactNode`                          | Component displayed as the header after scrolling past a threshold.                                                                                                           |
-| `contentComponent`        | `React.ReactNode`                          | Content inside the scroll view that will be animated with scaling and translation effects.                                                                                    |
-| `children`                | `React.ReactNode`                          | Regular static content inside the scroll view.                                                                                                                                |
-| `scaleMin`                | `number`                                   | Controls how much the ContentView shrinks during the scroll animation. For example, scaleMin={0.8} means the ContentView shrinks to 80% of its original size while scrolling. |
-| `headerBackgroundColor`   | `HeaderViewProps['headerBackgroundColor']` | Background color for the `scrolledHeaderComponent`. Useful for matching the background when the header becomes sticky. Example: `"#ffffff"`.                                  |
-| `useSafeArea`             | `HeaderViewProps['useSafeArea']`           | Enables or disables usage of safe area insets (e.g., for iPhone notch). If true, padding will be added to the top using `useSafeAreaInsets()`. Defaults to `false`.           |
-| `...props`                | `ScrollViewProps`                          | Any additional props passed to the underlying `ScrollView`.                                                                                                                   |
+| Prop                      | Type                           | Description                                                                                                                                                                   |
+| ------------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `topHeaderComponent`      | `React.ReactNode \| undefined` | Component displayed as the main header before scrolling.                                                                                                                      |
+| `scrolledHeaderComponent` | `React.ReactNode \| undefined` | Component displayed as the header after scrolling past a threshold.                                                                                                           |
+| `contentComponent`        | `React.ReactNode \| undefined` | Content inside the scroll view that will be animated with scaling and translation effects.                                                                                    |
+| `children`                | `React.ReactNode \| undefined` | Regular static content inside the scroll view.                                                                                                                                |
+| `scaleMin`                | `number \| undefined`          | Controls how much the ContentView shrinks during the scroll animation. For example, scaleMin={0.8} means the ContentView shrinks to 80% of its original size while scrolling. |
+| `headerBackgroundColor`   | `ColorValue \| undefined`      | Background color for the `scrolledHeaderComponent`. Useful for matching the background when the header becomes sticky. Example: `"#ffffff"`.                                  |
+| `useSafeArea`             | `boolean \| undefined`         | Enables or disables usage of safe area insets (e.g., for iPhone notch). If true, padding will be added to the top using `useSafeAreaInsets()`. Defaults to `false`.           |
+| `...props`                | `ScrollViewProps \| undefined` | Any additional props passed to the underlying `ScrollView`.                                                                                                                   |
 
 &nbsp;&nbsp;&nbsp;
 
