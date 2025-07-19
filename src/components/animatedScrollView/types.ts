@@ -1,6 +1,5 @@
-import { HeaderViewProps } from '../headerView/types'
 import { ReactNode } from 'react'
-import { ScrollViewProps } from 'react-native'
+import { ColorValue, ScrollViewProps } from 'react-native'
 
 export interface AnimatedScrollViewProps extends ScrollViewProps {
   /**
@@ -54,7 +53,7 @@ export interface AnimatedScrollViewProps extends ScrollViewProps {
    * @example
    * headerBackgroundColor="#ffffff"
    */
-  headerBackgroundColor?: HeaderViewProps['headerBackgroundColor']
+  headerBackgroundColor?: ColorValue
 
   /**
    * Enables or disables usage of safe area insets (e.g. for iPhone notch).
@@ -67,5 +66,5 @@ export interface AnimatedScrollViewProps extends ScrollViewProps {
    * @example
    * useSafeArea={true}
    */
-  useSafeArea?: HeaderViewProps['useSafeArea']
+  useSafeArea?: boolean
 }
